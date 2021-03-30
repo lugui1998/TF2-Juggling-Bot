@@ -112,7 +112,7 @@ public OnPluginStart() {
 
     RegAdminCmd("sm_juggle", Command_Juggle, ADMFLAG_ROOT, "Starts to juggle");
     RegAdminCmd("sm_j", Command_Juggle, ADMFLAG_ROOT, "Starts to juggle");
-    RegAdminCmd("sm_control", Command_Control, ADMFLAG_ROOT, "Starts to juggle");
+    RegAdminCmd("sm_control", Command_Control, ADMFLAG_ROOT, "Toggle bot controll");
 
 }
 
